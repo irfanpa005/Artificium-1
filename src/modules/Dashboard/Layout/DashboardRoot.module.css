@@ -1,0 +1,18 @@
+.dashboardHome{
+    background-color: #131619;
+    display: flex;
+    height: 100dvh;
+}
+
+.sideBarDiv{
+    width: 312px;
+    margin: 10px 5px 10px 10px;  
+   }
+
+.rightSection{
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+    margin: 10px 10px 10px 5px;
+    padding: 0 0;
+}
