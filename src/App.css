@@ -1,4 +1,6 @@
 html, body {
-  background-color: #131619;
   height: 100dvh;
+  font-family: "Plus Jakarta Sans";
+  font-optical-sizing: auto;
+  font-style: normal;
 }

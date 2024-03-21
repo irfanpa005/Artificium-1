@@ -7,8 +7,8 @@ import ContentBar from "../components/ContentBar/ContentBar";
 
 function Dashboard() {
   return (
-    <div className={styles.dashboardHome}>
-      <div className={styles.sideBarDiv}>
+    <div className='flex h-screen bg-noble-black-700 text'>
+      <div className='w-72 sm:w-100 p-2'>
         <SideBar />
       </div>
       <div className={styles.rightSection}>
