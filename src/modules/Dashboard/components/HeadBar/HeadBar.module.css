@@ -1,3 +1,8 @@
 .headBar{
     background-color: #0D0F10;
 }
+
+.headerMenus li{
+    display: flex;
+    justify-content: space-between;    
+}

@@ -12,7 +12,7 @@ function Dashboard() {
         <SideBar />
       </div>
       <div className={styles.rightSection}>
-        <div className={styles.headBarDiv}>
+        <div>
           <HeadBar />
         </div>
         <div className={styles.mainContentDiv}>

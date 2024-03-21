@@ -22,7 +22,7 @@ function SideBar() {
           <div className="flex justify-between items-center">
             <img className={styles.avatar} src={Avatar1} alt="Avatar" />
             <div className="flex-grow pl-2">
-              <h5 className="text-Bm text-white">Intellisys</h5>
+              <h5 className="text-Hxs text-white">Intellisys</h5>
               <h4 className="text-Bxs text-stem-green-500">12 members</h4>
             </div>
             <div>
