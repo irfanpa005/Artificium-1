@@ -12,7 +12,7 @@ import ChatIcon from "../../../../assets/ChatIcon";
 
 function HeadBar() {
   return (
-    <div className="flex flex-col pt-4 px-2 pb-1 justify-between flex-grow">
+    <div className="flex flex-col pt-4 px-2 pb-1 justify-between flex-grow h-screen max-h-32">
       <div className="flex justify-between items-center">
         {/* top section  */}
         <div className="flex items-center">
@@ -62,9 +62,9 @@ function HeadBar() {
 
       <div>
         <ul className={`${styles.headerMenus} flex gap-3`}>
-          <li>
+          <li className="border-b-2 border-stem-green-500">
             <ArtificiumLogo color="#B6F09C" />
-            <h4 className="text-Bsm text-noble-black-300">Artificium</h4>
+            <h4 className="text-Bsm text-white">Artificium</h4>
           </li>
           <li>
             <ChatIcon color="#686B6E" />
