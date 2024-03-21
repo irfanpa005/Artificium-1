@@ -1,28 +1,22 @@
-.dashboardHome{
+.dashboardHome {
     display: flex;
     height: 100dvh;
 }
 
-.sideBarDiv{
+.sideBarDiv {
     width: 312px;
     min-width: 300px;
-    margin: 10px 5px 10px 10px;  
-   }
+    margin: 10px 5px 10px 10px;
+}
 
-.rightSection{
+.rightSection {
     width: 100%;
     position: relative;
     margin: 10px 10px 10px 5px;
     padding: 0 0;
 }
 
-.contentSection{
--ms-overflow-style: none;
-scrollbar-width: none; 
--ms-overflow-style: -ms-autohide-scrollbar;
-scrollbar-width: none;
+.contentBarDiv {
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
-
-.contentSection::-webkit-scrollbar {
-    display: none;
-  }

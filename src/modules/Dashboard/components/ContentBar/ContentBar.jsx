@@ -3,31 +3,31 @@ import styles from './ContentBar.module.css';
 
 function ContentBar() {
   return (
-    <div className={styles.contentsBar}>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
-      <h1>Content Bar</h1>
+    <div className='text-slate-400'>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
+      <h1>Contents scorll</h1>
 
     </div>
   )

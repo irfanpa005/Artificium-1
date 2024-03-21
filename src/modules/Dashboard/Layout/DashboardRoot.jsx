@@ -8,14 +8,14 @@ import ContentBar from "../components/ContentBar/ContentBar";
 function Dashboard() {
   return (
     <div className='flex h-screen bg-noble-black-700 text'>
-      <div className='w-72 sm:w-100 p-2'>
+      <div className="px-2 pb-2">
         <SideBar />
       </div>
-      <div className={`${styles.rightSection} flex flex-col flex-grow justify-between pb-5`}>
+      <div className={`${styles.rightSection} flex flex-col justify-between pb-2`}>
         <div>
           <HeadBar />
         </div>
-        <div className="flex flex-grow-1 bg-slate-300 overflow-y-scroll contentSection">
+        <div className={`${styles.contentBarDiv}`}>
           <ContentBar />
         </div>
         <div>
