@@ -15,3 +15,14 @@
     margin: 10px 10px 10px 5px;
     padding: 0 0;
 }
+
+.contentSection{
+-ms-overflow-style: none;
+scrollbar-width: none; 
+-ms-overflow-style: -ms-autohide-scrollbar;
+scrollbar-width: none;
+}
+
+.contentSection::-webkit-scrollbar {
+    display: none;
+  }

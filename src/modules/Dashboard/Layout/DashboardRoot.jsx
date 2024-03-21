@@ -11,14 +11,14 @@ function Dashboard() {
       <div className='w-72 sm:w-100 p-2'>
         <SideBar />
       </div>
-      <div className={styles.rightSection}>
+      <div className={`${styles.rightSection} flex flex-col flex-grow justify-between pb-5`}>
         <div>
           <HeadBar />
         </div>
-        <div className={styles.mainContentDiv}>
+        <div className="flex flex-grow-1 bg-slate-300 overflow-y-scroll contentSection">
           <ContentBar />
         </div>
-        <div className={styles.chatBarDiv}>
+        <div>
           <ChatBar />
         </div>
       </div>
