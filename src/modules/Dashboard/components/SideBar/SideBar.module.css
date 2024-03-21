@@ -2,5 +2,25 @@
 .avatar{
     height: 48px;
     width: 48px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
+
+.topCol{
+    height: 70vh;
+}
+
+.projectsUl li{
+    flex: 1;
+    margin: 8px 0px 8px 0px;
+    padding: 2px;
+    border-radius: 15px;
+    padding-left: 10px;
+    text-wrap: nowrap;
+}
+
+.projectsUl li:hover{
+    background-color: linear-gradient(117.58deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0) 100%);
+    border-top: 1px solid #FFFFFF14;
+    cursor: pointer;
+}
+

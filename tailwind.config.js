@@ -12,9 +12,15 @@ export default {
         'noble-black-700': '#131619',
         'noble-black-800': '#0D0F10',
         'stem-green-500': '#B6F09C',
+        'stroke-stem-green-500': '#B6F09C',
         'red-power-600' : '#D0302F',
         'happy-orange-600':'#E26F20',
-        'heisenburg-blue-500': '#82DBF7'
+        'heisenburg-blue-500': '#82DBF7',
+        'glass-stroke': 'rgba(255, 255, 255, 0.08)',
+        'electric-green-600':'#4AC97E',
+      },
+      backgroundImage: {
+        'gradient-BlShade': 'linear-gradient(117.58deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0) 100%)',
       },
       fontSize: {
         'Hxl': ['3rem', {
